@@ -1,0 +1,7 @@
+{
+  "greeting": "Merhaba, Hoş geldiniz {{name}}!",
+  "description": {
+    "line1": "<1>Bu basit </1><b>çok dilli bir uygulamadır</b>.",
+    "line2": "Dinamik çevirileri görmek için dili değiştirin."
+  }
+}
