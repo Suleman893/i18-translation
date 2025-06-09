@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { useTranslation } from "react-i18next";
+import LanguageSelector from "./components/LanguageSelector";
 
 function App() {
+  const { t } = useTranslation();
+
+  const { line1, line2 } = t("description");
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <LanguageSelector />
+      <h1>{t("greeting")}</h1>
+      <p>{line1}</p>
+      <span>{line2}</span>
     </div>
   );
 }
