@@ -1,5 +1,5 @@
 import "./App.css";
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import LanguageSelector from "./components/LanguageSelector";
 
 function App() {
@@ -10,8 +10,10 @@ function App() {
   return (
     <div className="container">
       <LanguageSelector />
-      <h1>{t("greeting")}</h1>
-      <p>{line1}</p>
+      <h1>{t("greeting", { name: "suleman" })}</h1>
+      <span>
+        <Trans i18nKey={line1} components={{ b: <b />, 1: <i /> }} />
+      </span>
       <span>{line2}</span>
     </div>
   );

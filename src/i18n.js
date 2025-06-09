@@ -12,72 +12,72 @@ i18n
     resources: {
       en: {
         translation: {
-          greeting: "Hello, Welcome!",
+          greeting: "Hello, Welcome {{name}}!",
           description: {
-            line1: "This is a simple multilingual app.",
+            line1: "<1>This is a simple </1><b>multilingual app</b>.",
             line2: "Switch languages to see dynamic translations.",
           },
         },
       },
       fr: {
         translation: {
-          greeting: "Bonjour, Bienvenue !",
+          greeting: "Bonjour, Bienvenue {{name}} !",
           description: {
-            line1: "Ceci est une application multilingue simple.",
+            line1: "<1>Ceci est une</1> <b>application multilingue</b>.",
             line2: "Changez de langue pour voir les traductions dynamiques.",
           },
         },
       },
       hi: {
         translation: {
-          greeting: "नमस्ते, स्वागत है!",
+          greeting: "नमस्ते, स्वागत है {{name}}!",
           description: {
-            line1: "यह एक सरल बहुभाषी ऐप है।",
+            line1: "<1>यह एक सरल </1><b>बहुभाषी ऐप है</b>",
             line2: "डायनामिक अनुवाद देखने के लिए भाषा बदलें।",
           },
         },
       },
       ru: {
         translation: {
-          greeting: "Привет, добро пожаловать!",
+          greeting: "Привет, добро пожаловать {{name}}!",
           description: {
-            line1: "Это простое многоязычное приложение.",
+            line1: "<1>Это простое</1> <b>многоязычное приложение</b>.",
             line2: "Смените язык, чтобы увидеть переводы.",
           },
         },
       },
       fa: {
         translation: {
-          greeting: "سلام، خوش آمدید!",
+          greeting: "{{name}} سلام، خوش آمدید!",
           description: {
-            line1: "این یک برنامه چند زبانه ساده است.",
+            line1: "<1>این یک </1><b>برنامه چند زبانه ساده است</b>.",
             line2: "برای دیدن ترجمه‌ها زبان را تغییر دهید.",
           },
         },
       },
       tr: {
         translation: {
-          greeting: "Merhaba, Hoş geldiniz!",
+          greeting: "Merhaba, Hoş geldiniz {{name}}!",
           description: {
-            line1: "Bu basit çok dilli bir uygulamadır.",
+            line1: "<1>Bu basit </1><b>çok dilli bir uygulamadır</b>.",
             line2: "Dinamik çevirileri görmek için dili değiştirin.",
           },
         },
       },
       ur: {
         translation: {
-          greeting: "ہیلو، خوش آمدید!",
+          greeting: "{{name}} ہیلو، خوش آمدید!",
           description: {
-            line1: "یہ ایک سادہ کثیر لسانی ایپ ہے۔",
+            line1: "<1>یہ ایک </1><b>سادہ کثیر لسانی ایپ</b> ہے۔",
             line2: "ڈائنامک ترجمے دیکھنے کے لیے زبان تبدیل کریں۔",
           },
         },
       },
       ko: {
         translation: {
-          greeting: "안녕하세요, 환영합니다!",
+          greeting: "안녕하세요, 환영합니다! {{name}}",
           description: {
-            line1: "이것은 간단한 다국어 앱입니다.",
+            line1: "<1>이것은 간단한 </1><b>다국어 앱입니다</b>.",
             line2: "동적 번역을 보려면 언어를 변경하세요.",
           },
         },
